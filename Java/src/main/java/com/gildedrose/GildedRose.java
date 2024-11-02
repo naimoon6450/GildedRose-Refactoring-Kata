@@ -1,10 +1,23 @@
 package com.gildedrose;
 
+// Main purpose of this function is to update the quality of these items.
+// There's a lot of branching based on an item name
+// also branching based on item quality / sell in.
+
+
 class GildedRose {
     Item[] items;
 
     public GildedRose(Item[] items) {
         this.items = items;
+    }
+
+    public void updateQualityOfItem(Item item) {
+
+    }
+
+    public void updateSellInOfItem(Item item) {
+
     }
 
     public void updateQuality() {
